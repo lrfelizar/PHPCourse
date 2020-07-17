@@ -27,7 +27,7 @@
                     <ul>
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#">Contacto<i class="icono fa fa-envelope"></i></a></li>
+                        <li><a href="<?php echo RUTA; ?>/contacto.php">Contacto<i class="icono fa fa-envelope"></i></a></li>
                     </ul>
                 </nav>
 
