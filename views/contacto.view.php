@@ -7,15 +7,15 @@
             <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea>
 
             <?php if (!empty($errores)): ?>
-                <div class="alert error">
+                <div>
                     <?php echo $errores ?>
                 </div>
             <?php elseif($enviado): ?>
-                <div class="alert success">
+                <div>
                     <p>Enviado correctamente</p>
                 </div>
             <?php endif ?>
-            <input type="submit" name="submit" class="btn btn-primary" value="Enviar Correo">
+            <input type="submit" name="submit" class="btn" value="Enviar Correo">
 
         </form>
     </div> 
