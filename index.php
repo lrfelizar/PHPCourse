@@ -10,7 +10,9 @@ if (!$conexion) {
 
 $posts = obtener_post($blog_config['post_por_pagina'], $conexion);
 if (!$posts) {
-    header('Alocar');
+  
+    header('Location');
+
 }
 
 require 'views/index.view.php';
